@@ -1,0 +1,29 @@
+
+# Data processing
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine learning
+scikit-learn
+imbalanced-learn
+joblib
+
+# API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Testing and code quality
+pytest
+httpx
+ruff
+
+# Experiment tracking
+mlflow
+
+# Dataset download utility
+requests
