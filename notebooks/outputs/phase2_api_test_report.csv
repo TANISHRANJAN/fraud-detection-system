@@ -1,0 +1,6 @@
+test,passed,status_code
+GET /health,True,200
+GET /model-info,True,200
+POST /predict valid request,True,200
+POST /predict rejects negative amount,True,422
+POST /predict rejects extra field,True,422

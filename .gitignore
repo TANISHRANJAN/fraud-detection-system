@@ -52,3 +52,11 @@ Thumbs.db
 
 # Azure local configuration
 .azure/
+# Secrets and local environment
+# Editor / OS
+# Large/private datasets and generated artifacts (track deliberately only if appropriate)
+data/raw/
+data/processed/
+models/*.pkl
+models/*.joblib
+# Logs

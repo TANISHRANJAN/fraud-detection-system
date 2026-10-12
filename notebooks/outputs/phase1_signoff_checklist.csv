@@ -1,0 +1,9 @@
+check,passed
+Saved model pipeline exists,True
+Saved model metadata exists,True
+Final test metrics report exists,True
+Validation threshold report exists,True
+Feature audit report exists,True
+Scoring-time feature checklist exists,True
+Threshold matches validation report,True
+Human feature review completed,False

@@ -1,0 +1,10 @@
+feature,dtype,missing_count,missing_pct,unique_values,numeric_infinite_count,sample_values
+type,str,0,0.0,5,,"['PAYMENT', 'PAYMENT', 'TRANSFER']"
+amount,float64,0,0.0,5316900,0.0,"[9839.64, 1864.28, 181.0]"
+oldbalanceOrg,float64,0,0.0,1845844,0.0,"[170136.0, 21249.0, 181.0]"
+oldbalanceDest,float64,0,0.0,3614697,0.0,"[0.0, 0.0, 0.0]"
+hour_of_day,int64,0,0.0,24,0.0,"[1, 1, 1]"
+night_flag,int64,0,0.0,2,0.0,"[1, 1, 1]"
+amount_to_origin_balance_ratio,float64,0,0.0,6208443,0.0,"[0.0578339681196219, 0.0877349522330462, 1.0]"
+origin_balance_was_zero,int64,0,0.0,2,0.0,"[0, 0, 0]"
+origin_txn_count_prior_steps,int64,0,0.0,3,0.0,"[0, 0, 0]"

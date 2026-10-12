@@ -1,0 +1,10 @@
+feature,expected_source,initial_assessment,question,review_status
+type,Transaction request,Likely available before decision,Is transaction type present in the authorization request?,PENDING — confirm with project design
+amount,Transaction request,Likely available before decision,Is requested amount available before authorization?,PENDING — confirm with project design
+oldbalanceOrg,Origin account state before transaction,Confirm operational timing,Is the balance snapshot captured before this transaction is applied?,PENDING — confirm with project design
+oldbalanceDest,Destination account state before transaction,Confirm operational timing,Is destination balance known and available before this transaction is applied?,PENDING — confirm with project design
+hour_of_day,Derived from simulation step,Simulation-specific,Can the equivalent time feature be computed at decision time in the real system?,PENDING — confirm with project design
+night_flag,Derived from hour_of_day,Simulation-specific,Is the time zone and night-hour definition specified for deployment?,PENDING — confirm with project design
+amount_to_origin_balance_ratio,Amount divided by old origin balance,Confirm zero handling and timing,Is it calculated only from requested amount and the pre-transaction origin balance?,PENDING — confirm with project design
+origin_balance_was_zero,Derived from old origin balance,Likely pre-transaction if based on oldbalanceOrg,"Does this feature use oldbalanceOrg only, not newbalanceOrig?",PENDING — confirm with project design
+origin_txn_count_prior_steps,Historical transactions before current step,Audit grouping and ordering,Does the count exclude the current transaction and all transactions at the same step?,PENDING — confirm with project design

@@ -1,0 +1,3 @@
+destination_balance_zero,transactions,fraud_transactions,fraud_rate,fraud_rate_percent
+False,3923187,4122,0.001050676401609202,0.1050676401609202
+True,2439433,4091,0.0016770290473237018,0.16770290473237018

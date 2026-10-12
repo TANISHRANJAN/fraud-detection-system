@@ -1,0 +1,12 @@
+feature,dtype,missing_count
+origin_balance_error,float64,0
+destination_balance_error,float64,0
+origin_balance_error_abs,float64,0
+destination_balance_error_abs,float64,0
+origin_emptied,int8,0
+destination_balance_zero,int8,0
+hour_of_day,int8,0
+night_flag,int8,0
+amount_to_origin_balance_ratio,float64,0
+origin_balance_was_zero,int8,0
+origin_txn_count_prior_steps,int32,0

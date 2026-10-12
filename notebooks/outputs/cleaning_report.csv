@@ -1,0 +1,6 @@
+action,rows_affected,decision
+Rows before cleaning,6362620,Original input dataset
+Exact duplicate rows removed,0,Removed exact duplicate records
+Rows with missing fraud label removed,0,Cannot use unknown labels for supervised analysis
+Rows with invalid fraud labels removed,0,Retained only labels 0 and 1
+Large transaction amounts removed as outliers,0,Kept because unusual amounts may be genuine fraud signals

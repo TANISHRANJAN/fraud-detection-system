@@ -1,0 +1,23 @@
+{
+  "dataset_path": "data/processed/transactions_features.csv.gz",
+  "target_column": "isFraud",
+  "time_column": "step",
+  "split_method": "chronological_by_step",
+  "train_rule": "step <= 594",
+  "test_rule": "step > 594",
+  "cutoff_step": 594,
+  "train_step_min": 1,
+  "train_step_max": 594,
+  "test_step_min": 595,
+  "test_step_max": 743,
+  "train_rows": 6239040,
+  "test_rows": 123580,
+  "random_split": false,
+  "resampling_applied": false,
+  "exclude_from_initial_features": [
+    "isFraud",
+    "isFlaggedFraud",
+    "nameOrig",
+    "nameDest"
+  ]
+}
